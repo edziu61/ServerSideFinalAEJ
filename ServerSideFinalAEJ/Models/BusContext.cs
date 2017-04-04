@@ -1,11 +1,11 @@
 ﻿using ServerSideFinalAEJ.Models;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
-namespace ContosoUniversity.DAL
+namespace ServerSideFinalAEJ.DAL
 {
     public class BusContext : DbContext
     {
-        public BusContext() : base("SchoolContext")
+        public BusContext() : base("BusContext")
         {
         }
         public DbSet<Order> Orders { get; set; }
