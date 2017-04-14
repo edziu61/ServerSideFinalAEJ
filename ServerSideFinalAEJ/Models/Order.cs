@@ -11,7 +11,7 @@ namespace ServerSideFinalAEJ.Models
         public int totalAmount { get; set; }
         public string item { get; set; }
 
-        public virtual Client Client { get; set; }
+      
         //not sure what else to add I think Ed is working on employee 
 
     }
