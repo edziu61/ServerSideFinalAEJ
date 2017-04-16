@@ -9,6 +9,7 @@ namespace ServerSideFinalAEJ.DAL
         {
         }
         public DbSet<Order> Orders { get; set; }
+        public virtual DbSet<Employee> Employee { get; set; }
         //need DbSet for other classes
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
