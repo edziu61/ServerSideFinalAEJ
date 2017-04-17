@@ -29,9 +29,5 @@ namespace ServerSideFinalAEJ.Models
         {
             return new ApplicationDbContext();
         }
-
-        public System.Data.Entity.DbSet<ServerSideFinalAEJ.Models.Employee> Employees { get; set; }
-
- 
     }
 }
